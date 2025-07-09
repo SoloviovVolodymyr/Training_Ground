@@ -10,19 +10,35 @@ body {
 }
 
 .item {
-    justify-content: center;
-    /* align-items: center; */
     display: flex;
+    justify-content: center;
     background-color: rgba(189, 212, 62, 1);
     width: 19%;
-    padding-bottom: 10%;
-    margin: 5%;
-    margin-top: 0%;
+    aspect-ratio: 1/1;
+    margin: 0 5% 2%;
 }
 
-.item1Text, .item2Text, .item3Text {
+.item2 {
+    align-items: flex-end;
+}
+
+.item4 {
+    justify-content: flex-end;
+}
+
+.item1Text, .item2Text, .item3Text, .item4Text {
     color: white;
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
+}
+
+.centeredText {
+    align-self: center;
+}
+
+.item4Text {
+    background: linear-gradient(red, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
