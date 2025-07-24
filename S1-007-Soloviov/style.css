@@ -1,0 +1,52 @@
+body {
+    padding: 0 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    max-width: 25em;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.profile {
+    max-width: 15em;
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.pseudoname {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.user-name {
+    font-size: 0.8em;
+}
+
+q {
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+img {
+    height: 7em;
+    width: 7em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
